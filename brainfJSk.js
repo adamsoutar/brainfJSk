@@ -1,3 +1,11 @@
+/*
+  brainfJSk
+  Adam Soutar
+
+  https://github.com/Adybo123
+  MIT License
+*/
+
 /* INSTANCE - Handles mamory and all instructions bar loops */
 class BFInstance {
   constructor () {
@@ -13,7 +21,6 @@ class BFInstance {
   }
   left () {
     this.pointer--
-    console.log(this.pointer)
     if (this.pointer === -1) {
       this.memory = [0].concat(this.memory)
       this.pointer = 0
