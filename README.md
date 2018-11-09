@@ -4,7 +4,7 @@ _A brainf@?k interpreter in JavaScript_
 
 ### Usage
 
-###### Create the interpreter, and assign an input and output function
+###### Create the interpreter, and assign an output and input function
 
 ```js
 var bfI = new BFInterpreter(console.log, prompt)
