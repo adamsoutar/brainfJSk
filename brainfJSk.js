@@ -87,7 +87,7 @@ class BFInterpreter {
     return false
   }
   findLoopOpen () {
-    // Finds ]
+    // Finds [
     var ignore = 0
     for (let i = this.insPointer - 1; i > -1; i--) {
       var ch = this.instructions[i]
@@ -104,11 +104,7 @@ class BFInterpreter {
     }
     return false
   }
-
-  /*
-    TODO: These don't work with nested loops!
-    It's the one thing keeping this from perfect compatibility.
-  */
+  
   startLoop () {
     if (this.instance.getCellValue() === 0) {
       const closeLoop = this.findLoopClose()
