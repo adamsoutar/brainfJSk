@@ -2,6 +2,8 @@
 
 _A brainf@?k interpreter in JavaScript_
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 ### Usage
 
 ###### Create the interpreter, and assign an output and input function
