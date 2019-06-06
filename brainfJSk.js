@@ -6,7 +6,7 @@
   MIT License
 */
 
-/* INSTANCE - Handles mamory and all instructions bar loops */
+/* INSTANCE - Handles memory and all instructions bar loops */
 class BFInstance {
   constructor () {
     this.memory = [0]
